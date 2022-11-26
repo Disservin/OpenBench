@@ -44,3 +44,11 @@ html, body, header {
     /*background: linear-gradient(to bottom, #FA8E8E 0%, #da7474 100%);*/
     background-color: #FA8E8E
 }
+
+.btn-link {
+    color: #83b1e1
+}
+
+a {
+    color: #83b1e1
+}

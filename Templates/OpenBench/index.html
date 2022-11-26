@@ -4,7 +4,7 @@
 
     {% if paging.page == 1 %}
         {% if pending %}
-            <div class="align-self-center w-100 text-center mt-4 bg-black font-weight-bold mb-0 py-1 rounded-top h5" style="color:green;">
+            <div class="align-self-center w-100 text-center mt-4 bg-black font-weight-bold mb-0 py-1 rounded-top h5" style="color: #00c900;">
                 Pending
             </div>
             <table class="table table-sm table-hover table-striped datatable">
@@ -20,7 +20,7 @@
         {% endif %}
 
         {% if active %}
-            <div class="align-self-center w-100 text-center mt-4 bg-black font-weight-bold mb-0 py-1 rounded-top h5" style="color:green;">
+            <div class="align-self-center w-100 text-center mt-4 bg-black font-weight-bold mb-0 py-1 rounded-top h5" style="color: #00c900;">
                 Active {{ status }}
             </div>
             <table class="table table-sm table-hover table-striped datatable" style="table-layout: fixed">
@@ -35,7 +35,7 @@
     {% endif %}
 
 
-    <div class="align-self-center w-100 text-center mt-4 bg-black font-weight-bold mb-0 py-1 rounded-top h5" style="color:green;">
+    <div class="align-self-center w-100 text-center mt-4 bg-black font-weight-bold mb-0 py-1 rounded-top h5" style="color: #00c900;">
         Finished
     </div>
     <table class="mw-100 table table-sm table-hover table-striped datatable" style="table-layout: fixed">
